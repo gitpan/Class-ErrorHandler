@@ -1,0 +1,11 @@
+name: Class-ErrorHandler
+version: 0.01
+abstract: Base class for error handling
+author: Benjamin Trott <cpan@stupidfool.org>
+license: perl
+distribution_type: module
+no_index:
+  directory:
+    - t
+    - inc
+generated_by: Module::Install version 0.33
