@@ -1,11 +1,23 @@
-name: Class-ErrorHandler
-version: 0.01
-abstract: Base class for error handling
-author: Benjamin Trott <cpan@stupidfool.org>
-license: perl
+---
+abstract: 'Base class for error handling'
+author:
+  - 'Benjamin Trott <cpan@stupidfool.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.36
+configure_requires:
+  ExtUtils::MakeMaker: 6.36
 distribution_type: module
+dynamic_config: 1
+generated_by: 'Module::Install version 1.06'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Class-ErrorHandler
 no_index:
   directory:
-    - t
     - inc
-generated_by: Module::Install version 0.33
+    - t
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.02
