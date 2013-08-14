@@ -2,6 +2,10 @@
 
 Revision history for Class::ErrorHandler
 
+0.03 2013-08-14T03:15:44Z
+
+    - minl migrate
+
 0.02  2013.04.25
     - Re-packaging without auto_install().
       (ANDK)
